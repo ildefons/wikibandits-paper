@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper and this repository."
+title: "WikiBandits: code and data for 'How Mortal Learners Keep a Shared Record Useful and Honest'"
+type: software
+authors:
+  - family-names: "Magrans de Abril"
+    given-names: "Ildefons"
+    orcid: "https://orcid.org/0000-0002-1815-5372"
+    affiliation: "Universitat Politècnica de Catalunya - BarcelonaTech (UPC)"
+version: "1.0.0"
+license: MIT

@@ -1,0 +1,35 @@
+test,comparison,a,b,measure,a - b,95% CI,verdict
+P1,"notebook, newborn from scratch, facts change every 2,000 steps",notebook_cited,notebook_wiped_cited,newborn reward,0.0,"[-0.001, +0.001]",same within ±0.02
+P1,"notebook, newborn from scratch, facts change every 2,000 steps",notebook_cited,notebook_wiped_cited,t to 0.61,3.9,"[-6.056, +13.856]",unclear
+P1,"notebook, newborn from scratch, facts change every 8,000 steps",notebook_cited_drift8000,notebook_wiped_cited_drift8000,newborn reward,0.002,"[-0.002, +0.007]",same within ±0.02
+P1,"notebook, newborn from scratch, facts change every 8,000 steps",notebook_cited_drift8000,notebook_wiped_cited_drift8000,t to 0.61,10.667,"[-7.581, +28.915]",unclear
+P1,"notebook, newborn from scratch, facts change every never steps",notebook_cited_static,notebook_wiped_cited_static,newborn reward,0.001,"[-0.001, +0.004]",same within ±0.02
+P1,"notebook, newborn from scratch, facts change every never steps",notebook_cited_static,notebook_wiped_cited_static,t to 0.61,5.75,"[-1.116, +12.616]",unclear
+P1,"notebook, heir keeps features, facts change every 2,000 steps",notebook_torso_cited,notebook_wiped_torso_cited,newborn reward,0.018,"[-0.001, +0.037]",unclear
+P1,"notebook, heir keeps features, facts change every 2,000 steps",notebook_torso_cited,notebook_wiped_torso_cited,t to 0.61,-1.767,"[-4.484, +0.950]",unclear
+P1,"notebook, heir keeps features, facts change every 8,000 steps",notebook_torso_cited_drift8000,notebook_wiped_torso_cited_drift8000,newborn reward,0.014,"[-0.004, +0.032]",unclear
+P1,"notebook, heir keeps features, facts change every 8,000 steps",notebook_torso_cited_drift8000,notebook_wiped_torso_cited_drift8000,t to 0.61,-0.5,"[-2.081, +1.081]",unclear
+P1,"notebook, heir keeps features, facts change every never steps",notebook_torso_cited_static,notebook_wiped_torso_cited_static,newborn reward,0.009,"[+0.003, +0.016]",same within ±0.02
+P1,"notebook, heir keeps features, facts change every never steps",notebook_torso_cited_static,notebook_wiped_torso_cited_static,t to 0.61,-0.65,"[-1.665, +0.365]",unclear
+P1,"mass die-off, pages kept vs erased, facts change every 2,000 steps",sync_cited,sync_wipe_cited,newborn reward,0.029,"[+0.023, +0.035]",different
+P1,"mass die-off, pages kept vs erased, facts change every 2,000 steps",sync_cited,sync_wipe_cited,t to 0.61,-2.667,"[-4.101, -1.232]",different
+P1,"mass die-off, pages kept vs erased, facts change every 8,000 steps",sync_cited_drift8000,sync_wipe_cited_drift8000,newborn reward,0.036,"[+0.031, +0.041]",different
+P1,"mass die-off, pages kept vs erased, facts change every 8,000 steps",sync_cited_drift8000,sync_wipe_cited_drift8000,t to 0.61,-2.667,"[-4.101, -1.232]",different
+P1,"mass die-off, pages kept vs erased, facts change every never steps",sync_cited_static,sync_wipe_cited_static,newborn reward,0.042,"[+0.035, +0.048]",different
+P1,"mass die-off, pages kept vs erased, facts change every never steps",sync_cited_static,sync_wipe_cited_static,t to 0.61,-3.25,"[-3.948, -2.552]",different
+juvenile,"notebook, newborn from scratch, facts change every 2,000 steps, juvenile period",notebook_cited_juv,notebook_wiped_cited_juv,newborn reward,0.09,"[+0.088, +0.091]",different
+juvenile,"notebook, newborn from scratch, facts change every 2,000 steps, juvenile period",notebook_cited_juv,notebook_wiped_cited_juv,t to 0.61,-66.033,"[-77.522, -54.544]",different
+juvenile,"notebook, newborn from scratch, facts change every never steps, juvenile period",notebook_cited_static_juv,notebook_wiped_cited_static_juv,newborn reward,0.178,"[+0.174, +0.182]",different
+juvenile,"notebook, newborn from scratch, facts change every never steps, juvenile period",notebook_cited_static_juv,notebook_wiped_cited_static_juv,t to 0.61,-92.2,"[-99.227, -85.173]",different
+juvenile,"notebook, heir keeps features, facts change every never steps, juvenile period",notebook_torso_cited_static_juv,notebook_wiped_torso_cited_static_juv,newborn reward,0.305,"[+0.297, +0.313]",different
+juvenile,"notebook, heir keeps features, facts change every never steps, juvenile period",notebook_torso_cited_static_juv,notebook_wiped_torso_cited_static_juv,t to 0.61,-60.25,"[-61.635, -58.865]",different
+juvenile,"mass die-off, pages kept vs erased, facts change every 2,000 steps, juvenile period",sync_cited_juv,sync_wipe_cited_juv,newborn reward,0.246,"[+0.242, +0.249]",different
+juvenile,"mass die-off, pages kept vs erased, facts change every 2,000 steps, juvenile period",sync_cited_juv,sync_wipe_cited_juv,t to 0.61,-58.167,"[-60.064, -56.269]",different
+juvenile,"mass die-off, pages kept vs erased, facts change every never steps, juvenile period",sync_cited_static_juv,sync_wipe_cited_static_juv,newborn reward,0.498,"[+0.495, +0.501]",different
+juvenile,"mass die-off, pages kept vs erased, facts change every never steps, juvenile period",sync_cited_static_juv,sync_wipe_cited_static_juv,t to 0.61,-60.3,"[-62.191, -58.409]",different
+juvenile,shared wiki: juvenile period vs none,individual_cited_juv,individual_cited,newborn reward,-0.017,"[-0.018, -0.016]",same within ±0.02
+juvenile,shared wiki: juvenile period vs none,individual_cited_juv,individual_cited,wiki right,-0.014,"[-0.015, -0.012]",same within ±0.02
+P3,bottleneck16_cited vs bottleneck16_wipe_cited,bottleneck16_cited,bottleneck16_wipe_cited,cohort newborn reward,0.032,"[+0.024, +0.040]",different
+P3,bottleneck8_cited vs bottleneck16_cited,bottleneck8_cited,bottleneck16_cited,cohort newborn reward,0.104,"[+0.063, +0.146]",different
+P3,bottleneck15_cited vs bottleneck16_cited,bottleneck15_cited,bottleneck16_cited,cohort newborn reward,0.034,"[+0.014, +0.054]",different
+P3,half survive vs staggered deaths,bottleneck8_cited,individual_cited,newborn reward,-0.028,"[-0.072, +0.016]",unclear

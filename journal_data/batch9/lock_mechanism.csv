@@ -1,0 +1,11 @@
+own page,credit after switch,re-initialised at the switch,honest writes,95% CI,follows,wiki right,seeds
+readable,0.0,nothing,0.016,"[-0.002, +0.033]",0.012,0.017,10
+readable,0.0,readers,0.027,"[+0.005, +0.048]",0.014,0.019,10
+readable,0.0,writers,0.078,"[+0.049, +0.107]",0.062,0.071,10
+readable,0.0,both heads,0.712,"[+0.601, +0.823]",0.936,0.921,10
+readable,0.0,whole network,0.779,"[+0.753, +0.806]",0.976,0.965,10
+hidden,0.02,nothing,0.301,"[+0.240, +0.361]",0.504,0.51,10
+hidden,0.02,readers,0.094,"[+0.060, +0.129]",0.05,0.05,10
+hidden,0.02,writers,0.853,"[+0.813, +0.892]",0.867,0.959,10
+hidden,0.02,both heads,0.844,"[+0.788, +0.900]",0.902,0.885,10
+hidden,0.02,whole network,0.952,"[+0.935, +0.969]",0.974,0.962,10

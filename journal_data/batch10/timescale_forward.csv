@@ -1,0 +1,21 @@
+condition,juvenile period,reading time,ratio,gain,share of max,predicted share
+default (paper),0,41.0,0.058,0.001,0.008,0.012
+default (paper),10,41.0,0.301,0.039,0.207,0.125
+default (paper),25,41.0,0.667,0.102,0.548,0.321
+default (paper),50,41.0,1.276,0.178,0.958,0.555
+default (paper),100,41.0,2.494,0.186,1.0,0.773
+learning rate x0.5,0,150.2,0.016,0.0,0.006,0.002
+learning rate x0.5,10,150.2,0.082,0.007,0.132,0.02
+learning rate x0.5,25,150.2,0.182,0.024,0.463,0.063
+learning rate x0.5,50,150.2,0.349,0.053,1.025,0.151
+learning rate x0.5,100,150.2,0.682,0.051,1.0,0.328
+learning rate x2,0,17.5,0.136,-0.007,-0.025,0.041
+learning rate x2,10,17.5,0.707,0.1,0.339,0.34
+learning rate x2,25,17.5,1.564,0.208,0.702,0.629
+learning rate x2,50,17.5,2.993,0.306,1.035,0.818
+learning rate x2,100,17.5,5.85,0.296,1.0,0.925
+"facts change every 8,000 steps",0,35.7,0.067,0.002,0.013,0.015
+"facts change every 8,000 steps",10,35.7,0.347,0.042,0.221,0.15
+"facts change every 8,000 steps",25,35.7,0.767,0.114,0.601,0.368
+"facts change every 8,000 steps",50,35.7,1.468,0.192,1.009,0.607
+"facts change every 8,000 steps",100,35.7,2.87,0.19,1.0,0.808

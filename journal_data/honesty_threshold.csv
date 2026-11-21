@@ -1,0 +1,21 @@
+own page,credit c,setting,honest writes,95% CI,side of 50%,newborn reward
+readable,-0.5,rival_info,0.031,"[0.025, 0.038]",mostly false,0.265
+readable,-0.25,rival_0.25,0.031,"[0.024, 0.038]",mostly false,0.271
+readable,-0.1,rival_0.1,0.037,"[0.027, 0.047]",mostly false,0.306
+readable,-0.05,rival_0.05,0.256,"[0.207, 0.305]",mostly false,0.444
+readable,-0.02,rival_0.02,0.604,"[0.586, 0.621]",mostly honest,0.633
+readable,0.0,individual,0.77,"[0.758, 0.782]",mostly honest,0.671
+readable,0.02,cited_0.02,0.865,"[0.841, 0.889]",mostly honest,0.687
+readable,0.05,cited_0.05,0.919,"[0.916, 0.922]",mostly honest,0.7
+readable,0.1,cited_0.1,0.95,"[0.943, 0.956]",mostly honest,0.709
+readable,0.25,cited_0.25,0.972,"[0.968, 0.977]",mostly honest,0.721
+readable,0.5,individual_cited,0.979,"[0.979, 0.980]",mostly honest,0.719
+readable,1.0,cited_1.0,0.98,"[0.977, 0.983]",mostly honest,0.692
+hidden,-0.1,hidden_own_c-0.1,0.037,"[0.030, 0.045]",mostly false,0.294
+hidden,-0.05,hidden_own_c-0.05,0.067,"[0.035, 0.099]",mostly false,0.294
+hidden,-0.02,hidden_own_c-0.02,0.277,"[0.264, 0.291]",mostly false,0.318
+hidden,0.0,hidden_own,0.52,"[0.503, 0.537]",mostly honest,0.525
+hidden,0.02,hidden_own_c+0.02,0.719,"[0.701, 0.738]",mostly honest,0.633
+hidden,0.05,hidden_own_c+0.05,0.854,"[0.805, 0.904]",mostly honest,0.68
+hidden,0.1,hidden_own_c+0.1,0.932,"[0.924, 0.940]",mostly honest,0.7
+hidden,0.5,hidden_own_cited,0.978,"[0.975, 0.981]",mostly honest,0.718

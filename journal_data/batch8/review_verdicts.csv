@@ -1,0 +1,51 @@
+prediction,case,result,detail
+K3,"shared wiki, keep 0.97, newborn reward",holds,"-0.019 [-0.020, -0.018]"
+K3,"shared wiki, keep 0.97, adult reward",holds,"-0.012 [-0.012, -0.011]"
+K3,"shared wiki, keep 0.97, honest writes",holds,"-0.008 [-0.011, -0.006]"
+K3,"shared wiki, keep 0.99, newborn reward",fails,"-0.044 [-0.047, -0.042]"
+K3,"shared wiki, keep 0.99, adult reward",fails,"-0.030 [-0.033, -0.028]"
+K3,"shared wiki, keep 0.99, honest writes",fails,"-0.020 [-0.023, -0.017]"
+K1,"notebook, fresh heir",holds,+0.001 < +0.007 < +0.052
+K2,"notebook, fresh heir",holds,keep 0.99: +0.052; juvenile period 50: +0.178
+K1,"notebook, heir keeps features",fails,+0.009 < +0.007 < +0.069
+K2,"notebook, heir keeps features",holds,keep 0.99: +0.069; juvenile period 50: +0.305
+K1,mass die-off pages,holds,+0.042 < +0.149 < +0.258
+K2,mass die-off pages,holds,keep 0.99: +0.258; juvenile period 50: +0.498
+F1,"notebook, facts change every 2,000 steps",holds,"best J = 25; fitness gain over J = 0: +0.0273 [+0.024, +0.030]"
+F1,"notebook, facts change every 8,000 steps",holds,"best J = 100; fitness gain over J = 0: +0.0692 [+0.066, +0.072]"
+F1,"heir keeps features, facts change every 2,000 steps",holds,"best J = 10; fitness gain over J = 0: +0.0041 [+0.003, +0.005]"
+F1,"heir keeps features, facts change every 8,000 steps",holds,"best J = 25; fitness gain over J = 0: +0.0085 [+0.006, +0.011]"
+F2,notebook,holds,"best J: 25 (2,000 steps), 100 (8,000 steps)"
+F2,heir keeps features,holds,"best J: 10 (2,000 steps), 25 (8,000 steps)"
+F3,"notebook, facts change every 2,000 steps",holds,best fixed J = 25; evolved J = 22.9
+F3,"heir keeps features, facts change every 2,000 steps",fails,best fixed J = 10; evolved J = 14.4
+H2,"readable, c = -0.05, from honest",holds,"copy SD up to 0.009, up to 1 mode(s)"
+H3,"readable, c = -0.05, from honest",unclear,"-0.019 [-0.074, +0.036] vs constant credit"
+H2,"readable, c = -0.05, from lying",holds,"copy SD up to 0.006, up to 1 mode(s)"
+H3,"readable, c = -0.05, from lying",unclear,"-0.008 [-0.072, +0.057] vs constant credit"
+H1,"readable, c = -0.05",unclear,"honest start - lying start: -0.011 [-0.065, +0.043]"
+H2,"readable, c = -0.02, from honest",holds,"copy SD up to 0.015, up to 1 mode(s)"
+H3,"readable, c = -0.02, from honest",holds,"+0.017 [-0.003, +0.038] vs constant credit"
+H2,"readable, c = -0.02, from lying",holds,"copy SD up to 0.015, up to 1 mode(s)"
+H3,"readable, c = -0.02, from lying",holds,"+0.012 [-0.014, +0.038] vs constant credit"
+H1,"readable, c = -0.02",holds,"honest start - lying start: +0.005 [-0.018, +0.029]"
+H2,"readable, c = +0, from honest",holds,"copy SD up to 0.012, up to 1 mode(s)"
+H3,"readable, c = +0, from honest",holds,"+0.001 [-0.014, +0.016] vs constant credit"
+H2,"readable, c = +0, from lying",holds,"copy SD up to 0.011, up to 1 mode(s)"
+H3,"readable, c = +0, from lying",holds,"+0.006 [-0.010, +0.022] vs constant credit"
+H1,"readable, c = +0",holds,"honest start - lying start: -0.005 [-0.021, +0.010]"
+H2,"hidden, c = -0.02, from honest",holds,"copy SD up to 0.004, up to 1 mode(s)"
+H3,"hidden, c = -0.02, from honest",holds,"+0.007 [-0.015, +0.029] vs constant credit"
+H2,"hidden, c = -0.02, from lying",holds,"copy SD up to 0.003, up to 1 mode(s)"
+H3,"hidden, c = -0.02, from lying",holds,"-0.002 [-0.024, +0.020] vs constant credit"
+H1,"hidden, c = -0.02",holds,"honest start - lying start: +0.009 [-0.016, +0.034]"
+H2,"hidden, c = +0, from honest",holds,"copy SD up to 0.011, up to 1 mode(s)"
+H3,"hidden, c = +0, from honest",holds,"+0.003 [-0.016, +0.022] vs constant credit"
+H2,"hidden, c = +0, from lying",holds,"copy SD up to 0.011, up to 1 mode(s)"
+H3,"hidden, c = +0, from lying",holds,"-0.002 [-0.029, +0.024] vs constant credit"
+H1,"hidden, c = +0",holds,"honest start - lying start: +0.005 [-0.019, +0.029]"
+H2,"hidden, c = +0.02, from honest",holds,"copy SD up to 0.011, up to 1 mode(s)"
+H3,"hidden, c = +0.02, from honest",holds,"+0.011 [-0.010, +0.032] vs constant credit"
+H2,"hidden, c = +0.02, from lying",fails,"copy SD up to 0.012, up to 2 mode(s)"
+H3,"hidden, c = +0.02, from lying",holds,"+0.010 [-0.011, +0.031] vs constant credit"
+H1,"hidden, c = +0.02",holds,"honest start - lying start: +0.001 [-0.015, +0.017]"

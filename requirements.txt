@@ -1,0 +1,13 @@
+# Simulator and runs (use a CUDA build of JAX on a GPU machine, e.g. jax[cuda12] or jax[cuda13])
+jax
+optax
+numpy
+# Analysis and figures
+pandas
+scipy
+matplotlib
+# Notebook builder and tests
+nbformat
+pytest
+# Only for recover_fig15.py
+pymupdf

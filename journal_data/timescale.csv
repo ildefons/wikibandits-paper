@@ -1,0 +1,19 @@
+record,J,keep,T_p,T_r,ratio,gain,se,seeds,share of max
+"notebook, fresh heir",0,0.9,2.4,41.0,0.058,0.001,0.0014,10,0.005
+"notebook, fresh heir",0,0.97,8.2,41.0,0.2,0.007,0.0042,3,0.038
+"notebook, fresh heir",0,0.99,24.9,41.0,0.607,0.052,0.0014,10,0.28
+"notebook, fresh heir",10,0.9,12.4,41.0,0.302,0.038,0.0022,3,0.204
+"notebook, fresh heir",25,0.9,27.4,41.0,0.668,0.102,0.0022,3,0.548
+"notebook, fresh heir",50,0.9,52.4,41.0,1.277,0.178,0.0014,10,0.957
+"notebook, fresh heir",100,0.9,102.4,41.0,2.497,0.186,0.0042,3,1.0
+"notebook, heir keeps features",0,0.9,2.4,11.0,0.216,0.009,0.0028,10,0.03
+"notebook, heir keeps features",0,0.97,8.2,11.0,0.746,0.007,0.0094,3,0.023
+"notebook, heir keeps features",0,0.99,24.9,11.0,2.261,0.069,0.0036,10,0.226
+"notebook, heir keeps features",50,0.9,52.4,11.0,4.761,0.305,0.0036,10,1.0
+pages after a die-off,0,0.9,2.4,12.0,0.198,0.042,0.0028,10,0.084
+pages after a die-off,0,0.97,8.2,12.0,0.684,0.15,0.0081,3,0.301
+pages after a die-off,0,0.99,24.9,12.0,2.073,0.258,0.004,10,0.518
+pages after a die-off,10,0.9,12.4,12.0,1.031,0.234,0.011,3,0.47
+pages after a die-off,25,0.9,27.4,12.0,2.281,0.414,0.01,3,0.831
+pages after a die-off,50,0.9,52.4,12.0,4.364,0.498,0.001,10,1.0
+pages after a die-off,100,0.9,102.4,12.0,8.531,0.498,0.003,3,1.0

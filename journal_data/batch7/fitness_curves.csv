@@ -1,0 +1,21 @@
+setting,juvenile period,run,fitness,95% CI,lives per seed,newborn reward,population reward
+"notebook, facts change every 2,000 steps",0,notebook_cited,0.6438,"[0.6417, 0.6459]",40,0.33,0.644
+"notebook, facts change every 2,000 steps",10,fixJ_notebook_J10,0.6608,"[0.6586, 0.6630]",40,0.354,0.66
+"notebook, facts change every 2,000 steps",25,fixJ_notebook_J25,0.6711,"[0.6685, 0.6737]",40,0.378,0.671
+"notebook, facts change every 2,000 steps",50,notebook_cited_juv,0.6646,"[0.6625, 0.6667]",40,0.367,0.666
+"notebook, facts change every 2,000 steps",100,fixJ_notebook_J100,0.6149,"[0.6131, 0.6166]",40,0.363,0.616
+"notebook, facts change every 8,000 steps",0,notebook_cited_drift8000,0.6085,"[0.6073, 0.6098]",41,0.335,0.607
+"notebook, facts change every 8,000 steps",10,fixJ_notebook_drift8000_J10,0.6322,"[0.6308, 0.6335]",41,0.36,0.631
+"notebook, facts change every 8,000 steps",25,fixJ_notebook_drift8000_J25,0.639,"[0.6353, 0.6428]",41,0.406,0.64
+"notebook, facts change every 8,000 steps",50,fixJ_notebook_drift8000_J50,0.659,"[0.6547, 0.6634]",41,0.471,0.661
+"notebook, facts change every 8,000 steps",100,fixJ_notebook_drift8000_J100,0.6777,"[0.6746, 0.6808]",41,0.469,0.682
+"heir keeps features, facts change every 2,000 steps",0,notebook_torso_cited,0.8093,"[0.8085, 0.8100]",40,0.578,0.815
+"heir keeps features, facts change every 2,000 steps",10,fixJ_notebook_torso_J10,0.8134,"[0.8124, 0.8144]",40,0.599,0.818
+"heir keeps features, facts change every 2,000 steps",25,fixJ_notebook_torso_J25,0.8052,"[0.8045, 0.8058]",40,0.564,0.81
+"heir keeps features, facts change every 2,000 steps",50,fixJ_notebook_torso_J50,0.782,"[0.7812, 0.7827]",40,0.522,0.787
+"heir keeps features, facts change every 2,000 steps",100,fixJ_notebook_torso_J100,0.7258,"[0.7239, 0.7277]",40,0.52,0.734
+"heir keeps features, facts change every 8,000 steps",0,notebook_torso_cited_drift8000,0.8292,"[0.8291, 0.8294]",41,0.581,0.837
+"heir keeps features, facts change every 8,000 steps",10,fixJ_notebook_torso_drift8000_J10,0.8354,"[0.8315, 0.8393]",41,0.618,0.843
+"heir keeps features, facts change every 8,000 steps",25,fixJ_notebook_torso_drift8000_J25,0.8377,"[0.8354, 0.8401]",41,0.63,0.844
+"heir keeps features, facts change every 8,000 steps",50,fixJ_notebook_torso_drift8000_J50,0.8307,"[0.8286, 0.8327]",41,0.659,0.835
+"heir keeps features, facts change every 8,000 steps",100,fixJ_notebook_torso_drift8000_J100,0.7999,"[0.7959, 0.8040]",41,0.648,0.805

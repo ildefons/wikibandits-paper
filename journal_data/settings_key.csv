@@ -1,0 +1,332 @@
+setting,changes from the default world,run changes
+no_wiki,wiki=False,(default)
+oracle,oracle=True,(default)
+individual,(default),(default)
+individual_cited,citation=0.5,(default)
+symbol,write_mode=symbol,(default)
+symbol_cited,citation=0.5; write_mode=symbol,(default)
+rival_info,citation=-0.5,(default)
+wipe_cited,citation=0.5; wipe_on_death=True,(default)
+clean_anonymous,citation=0.5; identity=anonymous,(default)
+deceivers8_named,citation=0.5; n_deceivers=8,(default)
+deceivers8_anonymous,citation=0.5; identity=anonymous; n_deceivers=8,(default)
+notebook_cited,citation=0.5; read_others=False,(default)
+notebook_wiped_cited,citation=0.5; read_others=False; wipe_on_death=True,(default)
+symbol_long,write_mode=symbol,gens=18
+symbol_cited_long,citation=0.5; write_mode=symbol,gens=18
+competitive_cited,citation=0.5; reward_mode=competitive,(default)
+shuffled_cited,citation=0.5; reward_mode=shuffled,(default)
+blamed,blame=0.5; citation=0.5,(default)
+rival_info_blamed,blame=0.5; citation=-0.5,(default)
+no_wiki_noisy,p_high=0.8; p_low=0.2; wiki=False,(default)
+cited_noisy,citation=0.5; p_high=0.8; p_low=0.2,(default)
+deceivers4_named,citation=0.5; n_deceivers=4,(default)
+deceivers4_anonymous,citation=0.5; identity=anonymous; n_deceivers=4,(default)
+incompetent8_named,citation=0.5; n_incompetent=8,(default)
+incompetent8_anonymous,citation=0.5; identity=anonymous; n_incompetent=8,(default)
+commons1_cited,citation=0.5; read_k=1,(default)
+commons3_cited,citation=0.5; read_k=3,(default)
+notebook_replicated_cited,citation=0.5; replicate_own=True,(default)
+no_wiki_torso,keep_torso=True; wiki=False,(default)
+notebook_torso_cited,citation=0.5; keep_torso=True; read_others=False,(default)
+wiki_torso_cited,citation=0.5; keep_torso=True,(default)
+saboteurs8_named,citation=0.5; n_saboteurs=8,(default)
+saboteurs8_anonymous,citation=0.5; identity=anonymous; n_saboteurs=8,(default)
+deceivers2_named,citation=0.5; n_deceivers=2,(default)
+deceivers2_anonymous,citation=0.5; identity=anonymous; n_deceivers=2,(default)
+deceivers6_named,citation=0.5; n_deceivers=6,(default)
+deceivers6_anonymous,citation=0.5; identity=anonymous; n_deceivers=6,(default)
+deceivers10_named,citation=0.5; n_deceivers=10,(default)
+deceivers10_anonymous,citation=0.5; identity=anonymous; n_deceivers=10,(default)
+deceivers12_named,citation=0.5; n_deceivers=12,(default)
+deceivers12_anonymous,citation=0.5; identity=anonymous; n_deceivers=12,(default)
+no_wiki_N4,n_agents=4; wiki=False,(default)
+cited_N4,citation=0.5; n_agents=4,(default)
+competitive_N4,citation=0.5; n_agents=4; reward_mode=competitive,(default)
+no_wiki_N8,n_agents=8; wiki=False,(default)
+cited_N8,citation=0.5; n_agents=8,(default)
+competitive_N8,citation=0.5; n_agents=8; reward_mode=competitive,(default)
+no_wiki_N32,n_agents=32; wiki=False,(default)
+cited_N32,citation=0.5; n_agents=32,(default)
+competitive_N32,citation=0.5; n_agents=32; reward_mode=competitive,(default)
+cited_0.1,citation=0.1,(default)
+cited_0.25,citation=0.25,(default)
+cited_1.0,citation=1.0,(default)
+rival_0.1,citation=-0.1,(default)
+rival_0.25,citation=-0.25,(default)
+no_wiki_life100,wiki=False,life=100
+notebook_life100,citation=0.5; read_others=False,life=100
+cited_life100,citation=0.5,life=100
+no_wiki_life900,wiki=False,life=900
+notebook_life900,citation=0.5; read_others=False,life=900
+cited_life900,citation=0.5,life=900
+notebook_wiped_torso_cited,citation=0.5; keep_torso=True; read_others=False; wipe_on_death=True,(default)
+competitive_nocite,reward_mode=competitive,(default)
+hidden_own,hide_own=True,(default)
+hidden_own_cited,citation=0.5; hide_own=True,(default)
+hidden_own_competitive,hide_own=True; reward_mode=competitive,(default)
+hidden_own_competitive_cited,citation=0.5; hide_own=True; reward_mode=competitive,(default)
+hidden_own_cited_N4,citation=0.5; hide_own=True; n_agents=4,(default)
+hidden_own_competitive_cited_N4,citation=0.5; hide_own=True; n_agents=4; reward_mode=competitive,(default)
+sync_no_wiki,sync_deaths=True; wiki=False,(default)
+sync_notebook_cited,citation=0.5; read_others=False; sync_deaths=True,(default)
+sync_cited,citation=0.5; sync_deaths=True,(default)
+sync_wipe_cited,citation=0.5; sync_deaths=True; wipe_on_death=True,(default)
+deceivers8_rotate_life,citation=0.5; identity_period=9600; n_deceivers=8,(default)
+deceivers8_rotate_short,citation=0.5; identity_period=960; n_deceivers=8,(default)
+deceivers8_sleeper_named,citation=0.5; deceive_after=28800; n_deceivers=8,(default)
+deceivers8_sleeper_anonymous,citation=0.5; deceive_after=28800; identity=anonymous; n_deceivers=8,(default)
+no_wiki_drift500_life100,drift_period=500; wiki=False,life=100
+cited_drift500_life100,citation=0.5; drift_period=500,life=100
+no_wiki_drift500_life300,drift_period=500; wiki=False,life=300
+cited_drift500_life300,citation=0.5; drift_period=500,life=300
+no_wiki_drift500_life900,drift_period=500; wiki=False,life=900
+cited_drift500_life900,citation=0.5; drift_period=500,life=900
+no_wiki_drift8000_life100,drift_period=8000; wiki=False,life=100
+cited_drift8000_life100,citation=0.5; drift_period=8000,life=100
+no_wiki_drift8000_life300,drift_period=8000; wiki=False,life=300
+cited_drift8000_life300,citation=0.5; drift_period=8000,life=300
+no_wiki_drift8000_life900,drift_period=8000; wiki=False,life=900
+cited_drift8000_life900,citation=0.5; drift_period=8000,life=900
+no_wiki_K4,n_bandits=4; wiki=False,(default)
+notebook_cited_K4,citation=0.5; n_bandits=4; read_others=False,(default)
+cited_K4,citation=0.5; n_bandits=4,(default)
+no_wiki_K32,n_bandits=32; wiki=False,(default)
+notebook_cited_K32,citation=0.5; n_bandits=32; read_others=False,(default)
+cited_K32,citation=0.5; n_bandits=32,(default)
+no_wiki_static,drift_period=1000000000; wiki=False,(default)
+cited_static,citation=0.5; drift_period=1000000000,(default)
+notebook_cited_drift8000,citation=0.5; drift_period=8000; read_others=False,(default)
+notebook_wiped_cited_drift8000,citation=0.5; drift_period=8000; read_others=False; wipe_on_death=True,(default)
+notebook_torso_cited_drift8000,citation=0.5; drift_period=8000; keep_torso=True; read_others=False,(default)
+notebook_wiped_torso_cited_drift8000,citation=0.5; drift_period=8000; keep_torso=True; read_others=False; wipe_on_death=True,(default)
+sync_cited_drift8000,citation=0.5; drift_period=8000; sync_deaths=True,(default)
+sync_wipe_cited_drift8000,citation=0.5; drift_period=8000; sync_deaths=True; wipe_on_death=True,(default)
+notebook_cited_static,citation=0.5; drift_period=1000000000; read_others=False,(default)
+notebook_wiped_cited_static,citation=0.5; drift_period=1000000000; read_others=False; wipe_on_death=True,(default)
+notebook_torso_cited_static,citation=0.5; drift_period=1000000000; keep_torso=True; read_others=False,(default)
+notebook_wiped_torso_cited_static,citation=0.5; drift_period=1000000000; keep_torso=True; read_others=False; wipe_on_death=True,(default)
+sync_cited_static,citation=0.5; drift_period=1000000000; sync_deaths=True,(default)
+sync_wipe_cited_static,citation=0.5; drift_period=1000000000; sync_deaths=True; wipe_on_death=True,(default)
+cited_0.02,citation=0.02,(default)
+rival_0.02,citation=-0.02,(default)
+cited_0.05,citation=0.05,(default)
+rival_0.05,citation=-0.05,(default)
+hidden_own_c-0.1,citation=-0.1; hide_own=True,(default)
+hidden_own_c-0.05,citation=-0.05; hide_own=True,(default)
+hidden_own_c-0.02,citation=-0.02; hide_own=True,(default)
+hidden_own_c+0.02,citation=0.02; hide_own=True,(default)
+hidden_own_c+0.05,citation=0.05; hide_own=True,(default)
+hidden_own_c+0.1,citation=0.1; hide_own=True,(default)
+bottleneck8_cited,bottleneck_at=900; bottleneck_frac=0.5; citation=0.5,(default)
+bottleneck12_cited,bottleneck_at=900; bottleneck_frac=0.75; citation=0.5,(default)
+bottleneck15_cited,bottleneck_at=900; bottleneck_frac=0.9375; citation=0.5,(default)
+bottleneck16_cited,bottleneck_at=900; bottleneck_frac=1.0; citation=0.5,(default)
+bottleneck16_wipe_cited,bottleneck_at=900; bottleneck_frac=1.0; citation=0.5; wipe_on_death=True,(default)
+individual_cited_juv,citation=0.5; juvenile_updates=50,(default)
+notebook_cited_juv,citation=0.5; juvenile_updates=50; read_others=False,(default)
+notebook_wiped_cited_juv,citation=0.5; juvenile_updates=50; read_others=False; wipe_on_death=True,(default)
+sync_cited_juv,citation=0.5; juvenile_updates=50; sync_deaths=True,(default)
+sync_wipe_cited_juv,citation=0.5; juvenile_updates=50; sync_deaths=True; wipe_on_death=True,(default)
+notebook_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; read_others=False,(default)
+notebook_wiped_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; read_others=False; wipe_on_death=True,(default)
+sync_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; sync_deaths=True,(default)
+sync_wipe_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; sync_deaths=True; wipe_on_death=True,(default)
+notebook_torso_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; keep_torso=True; read_others=False,(default)
+notebook_wiped_torso_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; keep_torso=True; read_others=False; wipe_on_death=True,(default)
+evo_notebook_static_from0,citation=0.5; drift_period=1000000000; juvenile_evolve=True; read_others=False,gens=12
+evo_notebook_static_from150,citation=0.5; drift_period=1000000000; juvenile_evolve=True; juvenile_updates=150; read_others=False,gens=12
+evo_notebook_from0,citation=0.5; juvenile_evolve=True; read_others=False,gens=12
+evo_notebook_from150,citation=0.5; juvenile_evolve=True; juvenile_updates=150; read_others=False,gens=12
+evo_notebook_torso_static_from0,citation=0.5; drift_period=1000000000; juvenile_evolve=True; keep_torso=True; read_others=False,gens=12
+evo_notebook_torso_static_from150,citation=0.5; drift_period=1000000000; juvenile_evolve=True; juvenile_updates=150; keep_torso=True; read_others=False,gens=12
+evo_wiki_from0,citation=0.5; juvenile_evolve=True,gens=12
+evo_wiki_from150,citation=0.5; juvenile_evolve=True; juvenile_updates=150,gens=12
+evo_sync_static_from0,citation=0.5; drift_period=1000000000; juvenile_evolve=True; sync_deaths=True,gens=12
+evo_sync_static_from150,citation=0.5; drift_period=1000000000; juvenile_evolve=True; juvenile_updates=150; sync_deaths=True,gens=12
+evo_sync_static_group_from0,citation=0.5; drift_period=1000000000; juvenile_evolve=True; juvenile_group=True; sync_deaths=True,gens=12
+evo_sync_static_group_from150,citation=0.5; drift_period=1000000000; juvenile_evolve=True; juvenile_group=True; juvenile_updates=150; sync_deaths=True,gens=12
+notebook_cited_static_juv10,citation=0.5; drift_period=1000000000; juvenile_updates=10; read_others=False,(default)
+notebook_wiped_cited_static_juv10,citation=0.5; drift_period=1000000000; juvenile_updates=10; read_others=False; wipe_on_death=True,(default)
+sync_cited_static_juv10,citation=0.5; drift_period=1000000000; juvenile_updates=10; sync_deaths=True,(default)
+sync_wipe_cited_static_juv10,citation=0.5; drift_period=1000000000; juvenile_updates=10; sync_deaths=True; wipe_on_death=True,(default)
+notebook_cited_static_juv25,citation=0.5; drift_period=1000000000; juvenile_updates=25; read_others=False,(default)
+notebook_wiped_cited_static_juv25,citation=0.5; drift_period=1000000000; juvenile_updates=25; read_others=False; wipe_on_death=True,(default)
+sync_cited_static_juv25,citation=0.5; drift_period=1000000000; juvenile_updates=25; sync_deaths=True,(default)
+sync_wipe_cited_static_juv25,citation=0.5; drift_period=1000000000; juvenile_updates=25; sync_deaths=True; wipe_on_death=True,(default)
+notebook_cited_static_juv100,citation=0.5; drift_period=1000000000; juvenile_updates=100; read_others=False,(default)
+notebook_wiped_cited_static_juv100,citation=0.5; drift_period=1000000000; juvenile_updates=100; read_others=False; wipe_on_death=True,(default)
+sync_cited_static_juv100,citation=0.5; drift_period=1000000000; juvenile_updates=100; sync_deaths=True,(default)
+sync_wipe_cited_static_juv100,citation=0.5; drift_period=1000000000; juvenile_updates=100; sync_deaths=True; wipe_on_death=True,(default)
+evo_notebook_from0_long,citation=0.5; juvenile_evolve=True; read_others=False,gens=36
+evo_notebook_from150_long,citation=0.5; juvenile_evolve=True; juvenile_updates=150; read_others=False,gens=36
+evo_notebook_drift8000_from0_long,citation=0.5; drift_period=8000; juvenile_evolve=True; read_others=False,gens=36
+evo_notebook_drift8000_from150_long,citation=0.5; drift_period=8000; juvenile_evolve=True; juvenile_updates=150; read_others=False,gens=36
+evo_notebook_torso_from0_long,citation=0.5; juvenile_evolve=True; keep_torso=True; read_others=False,gens=36
+evo_notebook_torso_from150_long,citation=0.5; juvenile_evolve=True; juvenile_updates=150; keep_torso=True; read_others=False,gens=36
+evo_notebook_torso_drift8000_from0_long,citation=0.5; drift_period=8000; juvenile_evolve=True; keep_torso=True; read_others=False,gens=36
+evo_notebook_torso_drift8000_from150_long,citation=0.5; drift_period=8000; juvenile_evolve=True; juvenile_updates=150; keep_torso=True; read_others=False,gens=36
+notebook_cited_static_keep97,citation=0.5; drift_period=1000000000; read_others=False,p_write=0.03
+notebook_wiped_cited_static_keep97,citation=0.5; drift_period=1000000000; read_others=False; wipe_on_death=True,p_write=0.03
+notebook_torso_cited_static_keep97,citation=0.5; drift_period=1000000000; keep_torso=True; read_others=False,p_write=0.03
+notebook_wiped_torso_cited_static_keep97,citation=0.5; drift_period=1000000000; keep_torso=True; read_others=False; wipe_on_death=True,p_write=0.03
+sync_cited_static_keep97,citation=0.5; drift_period=1000000000; sync_deaths=True,p_write=0.03
+sync_wipe_cited_static_keep97,citation=0.5; drift_period=1000000000; sync_deaths=True; wipe_on_death=True,p_write=0.03
+individual_cited_keep97,citation=0.5,p_write=0.03
+notebook_cited_static_keep99,citation=0.5; drift_period=1000000000; read_others=False,p_write=0.01
+notebook_wiped_cited_static_keep99,citation=0.5; drift_period=1000000000; read_others=False; wipe_on_death=True,p_write=0.01
+notebook_torso_cited_static_keep99,citation=0.5; drift_period=1000000000; keep_torso=True; read_others=False,p_write=0.01
+notebook_wiped_torso_cited_static_keep99,citation=0.5; drift_period=1000000000; keep_torso=True; read_others=False; wipe_on_death=True,p_write=0.01
+sync_cited_static_keep99,citation=0.5; drift_period=1000000000; sync_deaths=True,p_write=0.01
+sync_wipe_cited_static_keep99,citation=0.5; drift_period=1000000000; sync_deaths=True; wipe_on_death=True,p_write=0.01
+individual_cited_keep99,citation=0.5,p_write=0.01
+fixJ_notebook_J10,citation=0.5; juvenile_updates=10; read_others=False,(default)
+fixJ_notebook_J25,citation=0.5; juvenile_updates=25; read_others=False,(default)
+fixJ_notebook_J100,citation=0.5; juvenile_updates=100; read_others=False,(default)
+fixJ_notebook_drift8000_J10,citation=0.5; drift_period=8000; juvenile_updates=10; read_others=False,(default)
+fixJ_notebook_drift8000_J25,citation=0.5; drift_period=8000; juvenile_updates=25; read_others=False,(default)
+fixJ_notebook_drift8000_J50,citation=0.5; drift_period=8000; juvenile_updates=50; read_others=False,(default)
+fixJ_notebook_drift8000_J100,citation=0.5; drift_period=8000; juvenile_updates=100; read_others=False,(default)
+fixJ_notebook_torso_J10,citation=0.5; juvenile_updates=10; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_J25,citation=0.5; juvenile_updates=25; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_J50,citation=0.5; juvenile_updates=50; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_J100,citation=0.5; juvenile_updates=100; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_drift8000_J10,citation=0.5; drift_period=8000; juvenile_updates=10; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_drift8000_J25,citation=0.5; drift_period=8000; juvenile_updates=25; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_drift8000_J50,citation=0.5; drift_period=8000; juvenile_updates=50; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_drift8000_J100,citation=0.5; drift_period=8000; juvenile_updates=100; keep_torso=True; read_others=False,(default)
+hyst_readable_c-0.05_from_honest,citation=-0.05; citation_early=0.5; citation_switch_at=28800,gens=9
+hyst_readable_c-0.05_from_lying,citation=-0.05; citation_early=-0.5; citation_switch_at=28800,gens=9
+hyst_readable_c-0.02_from_honest,citation=-0.02; citation_early=0.5; citation_switch_at=28800,gens=9
+hyst_readable_c-0.02_from_lying,citation=-0.02; citation_early=-0.5; citation_switch_at=28800,gens=9
+hyst_readable_c+0_from_honest,citation_early=0.5; citation_switch_at=28800,gens=9
+hyst_readable_c+0_from_lying,citation_early=-0.5; citation_switch_at=28800,gens=9
+hyst_hidden_c-0.02_from_honest,citation=-0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True,gens=9
+hyst_hidden_c-0.02_from_lying,citation=-0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=9
+hyst_hidden_c+0_from_honest,citation_early=0.5; citation_switch_at=28800; hide_own=True,gens=9
+hyst_hidden_c+0_from_lying,citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=9
+hyst_hidden_c+0.02_from_honest,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True,gens=9
+hyst_hidden_c+0.02_from_lying,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=9
+deceivers8_ownfirst_fixed,citation=0.5; identity_period=1000000000; n_deceivers=8,(default)
+deceivers8_seats_per_copy,citation=0.5; n_deceivers=8; seat_per_copy=True,(default)
+deceivers8_seats_per_copy_rotate_life,citation=0.5; identity_period=9600; n_deceivers=8; seat_per_copy=True,(default)
+clean_seats_per_copy,citation=0.5; seat_per_copy=True,(default)
+hyst_readable_c-0.05_from_honest_immortal,citation=-0.05; citation_early=0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_readable_c-0.05_from_lying_immortal,citation=-0.05; citation_early=-0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_readable_c-0.02_from_honest_immortal,citation=-0.02; citation_early=0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_readable_c-0.02_from_lying_immortal,citation=-0.02; citation_early=-0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_readable_c+0_from_honest_immortal,citation_early=0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_readable_c+0_from_lying_immortal,citation_early=-0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_hidden_c-0.02_from_honest_immortal,citation=-0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+hyst_hidden_c-0.02_from_lying_immortal,citation=-0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+hyst_hidden_c+0_from_honest_immortal,citation_early=0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+hyst_hidden_c+0_from_lying_immortal,citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+hyst_hidden_c+0.02_from_honest_immortal,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+hyst_hidden_c+0.02_from_lying_immortal,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+evo_wiki_from0_long,citation=0.5; juvenile_evolve=True,gens=36
+evo_wiki_group_from0_long,citation=0.5; juvenile_evolve=True; juvenile_group=True,gens=36
+evo_wiki_from150_long,citation=0.5; juvenile_evolve=True; juvenile_updates=150,gens=36
+evo_wiki_group_from150_long,citation=0.5; juvenile_evolve=True; juvenile_group=True; juvenile_updates=150,gens=36
+fixJ_notebook_J15,citation=0.5; juvenile_updates=15; read_others=False,(default)
+fixJ_notebook_J35,citation=0.5; juvenile_updates=35; read_others=False,(default)
+fixJ_notebook_torso_J5,citation=0.5; juvenile_updates=5; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_J15,citation=0.5; juvenile_updates=15; keep_torso=True; read_others=False,(default)
+fixJ_notebook_drift8000_J150,citation=0.5; drift_period=8000; juvenile_updates=150; read_others=False,(default)
+fixJ_notebook_drift8000_J200,citation=0.5; drift_period=8000; juvenile_updates=200; read_others=False,(default)
+fixJ_notebook_torso_drift8000_J15,citation=0.5; drift_period=8000; juvenile_updates=15; keep_torso=True; read_others=False,(default)
+fixJ_notebook_torso_drift8000_J35,citation=0.5; drift_period=8000; juvenile_updates=35; keep_torso=True; read_others=False,(default)
+mem_no_wiki,own_memory=True; wiki=False,(default)
+mem_cited,citation=0.5; own_memory=True,(default)
+mem_notebook_cited_static,citation=0.5; drift_period=1000000000; own_memory=True; read_others=False,(default)
+mem_notebook_wiped_cited_static,citation=0.5; drift_period=1000000000; own_memory=True; read_others=False; wipe_on_death=True,(default)
+mem_notebook_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; own_memory=True; read_others=False,(default)
+mem_notebook_wiped_cited_static_juv,citation=0.5; drift_period=1000000000; juvenile_updates=50; own_memory=True; read_others=False; wipe_on_death=True,(default)
+hyst_readable_c+0_from_honest_life100,citation_early=0.5; citation_switch_at=28800,gens=27.0; life=100
+hyst_readable_c+0_from_honest_life900,citation_early=0.5; citation_switch_at=28800,gens=3.0; life=900
+hyst_readable_c+0_from_honest_life2700,citation_early=0.5; citation_switch_at=28800,gens=1.0; life=2700
+hyst_readable_c+0_from_lying_life100,citation_early=-0.5; citation_switch_at=28800,gens=27.0; life=100
+hyst_readable_c+0_from_lying_life900,citation_early=-0.5; citation_switch_at=28800,gens=3.0; life=900
+hyst_readable_c+0_from_lying_life2700,citation_early=-0.5; citation_switch_at=28800,gens=1.0; life=2700
+hyst_hidden_c+0.02_from_honest_life100,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True,gens=27.0; life=100
+hyst_hidden_c+0.02_from_honest_life900,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True,gens=3.0; life=900
+hyst_hidden_c+0.02_from_honest_life2700,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True,gens=1.0; life=2700
+hyst_hidden_c+0.02_from_lying_life100,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=27.0; life=100
+hyst_hidden_c+0.02_from_lying_life900,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=3.0; life=900
+hyst_hidden_c+0.02_from_lying_life2700,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=1.0; life=2700
+hyst_readable_c+0_from_lying_immortal_reset_pull,citation_early=-0.5; citation_switch_at=28800; immortal=True; reset_at=900; reset_part=pull,gens=9
+hyst_readable_c+0_from_lying_immortal_reset_write,citation_early=-0.5; citation_switch_at=28800; immortal=True; reset_at=900; reset_part=write,gens=9
+hyst_readable_c+0_from_lying_immortal_reset_heads,citation_early=-0.5; citation_switch_at=28800; immortal=True; reset_at=900; reset_part=heads,gens=9
+hyst_readable_c+0_from_lying_immortal_reset_all,citation_early=-0.5; citation_switch_at=28800; immortal=True; reset_at=900; reset_part=all,gens=9
+hyst_hidden_c+0.02_from_lying_immortal_reset_pull,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True; reset_at=900; reset_part=pull,gens=9
+hyst_hidden_c+0.02_from_lying_immortal_reset_write,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True; reset_at=900; reset_part=write,gens=9
+hyst_hidden_c+0.02_from_lying_immortal_reset_heads,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True; reset_at=900; reset_part=heads,gens=9
+hyst_hidden_c+0.02_from_lying_immortal_reset_all,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True; reset_at=900; reset_part=all,gens=9
+hyst_readable_c+0_from_lying_immortal_noise0.02,citation_early=-0.5; citation_switch_at=28800; immortal=True; write_noise=0.02,gens=9
+hyst_readable_c+0_from_lying_immortal_noise0.1,citation_early=-0.5; citation_switch_at=28800; immortal=True; write_noise=0.1,gens=9
+hyst_readable_c+0_from_honest_immortal_noise0.1,citation_early=0.5; citation_switch_at=28800; immortal=True; write_noise=0.1,gens=9
+hyst_hidden_c+0.02_from_lying_immortal_noise0.02,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True; write_noise=0.02,gens=9
+hyst_hidden_c+0.02_from_lying_immortal_noise0.1,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True; write_noise=0.1,gens=9
+hyst_hidden_c+0.02_from_honest_immortal_noise0.1,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True; immortal=True; write_noise=0.1,gens=9
+hyst_readable_c+0.5_from_lying,citation=0.5; citation_early=-0.5; citation_switch_at=28800,gens=9
+hyst_readable_c+0.5_from_lying_immortal,citation=0.5; citation_early=-0.5; citation_switch_at=28800; immortal=True,gens=9
+hyst_hidden_c+0.5_from_lying,citation=0.5; citation_early=-0.5; citation_switch_at=28800; hide_own=True,gens=9
+hyst_hidden_c+0.5_from_lying_immortal,citation=0.5; citation_early=-0.5; citation_switch_at=28800; hide_own=True; immortal=True,gens=9
+hyst_readable_c+0_from_honest_juv50,citation_early=0.5; citation_switch_at=28800; juvenile_updates=50,gens=9
+hyst_readable_c+0_from_honest_juv150,citation_early=0.5; citation_switch_at=28800; juvenile_updates=150,gens=9
+hyst_readable_c+0_from_lying_juv50,citation_early=-0.5; citation_switch_at=28800; juvenile_updates=50,gens=9
+hyst_readable_c+0_from_lying_juv150,citation_early=-0.5; citation_switch_at=28800; juvenile_updates=150,gens=9
+hyst_hidden_c+0.02_from_honest_juv50,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True; juvenile_updates=50,gens=9
+hyst_hidden_c+0.02_from_honest_juv150,citation=0.02; citation_early=0.5; citation_switch_at=28800; hide_own=True; juvenile_updates=150,gens=9
+hyst_hidden_c+0.02_from_lying_juv50,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; juvenile_updates=50,gens=9
+hyst_hidden_c+0.02_from_lying_juv150,citation=0.02; citation_early=-0.5; citation_switch_at=28800; hide_own=True; juvenile_updates=150,gens=9
+readrival_readable_c-0.5,citation=-0.5; credit_on=read,(default)
+readrival_hidden_c-0.5,citation=-0.5; credit_on=read; hide_own=True,(default)
+hidden_own_c-0.5,citation=-0.5; hide_own=True,(default)
+notebook_cited_static_lrhalf,citation=0.5; drift_period=1000000000; read_others=False,lr=0.00015
+notebook_wiped_cited_static_lrhalf,citation=0.5; drift_period=1000000000; read_others=False; wipe_on_death=True,lr=0.00015
+notebook_cited_static_juv10_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=10; read_others=False,lr=0.00015
+notebook_wiped_cited_static_juv10_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=10; read_others=False; wipe_on_death=True,lr=0.00015
+notebook_cited_static_juv25_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=25; read_others=False,lr=0.00015
+notebook_wiped_cited_static_juv25_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=25; read_others=False; wipe_on_death=True,lr=0.00015
+notebook_cited_static_juv_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=50; read_others=False,lr=0.00015
+notebook_wiped_cited_static_juv_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=50; read_others=False; wipe_on_death=True,lr=0.00015
+notebook_cited_static_juv100_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=100; read_others=False,lr=0.00015
+notebook_wiped_cited_static_juv100_lrhalf,citation=0.5; drift_period=1000000000; juvenile_updates=100; read_others=False; wipe_on_death=True,lr=0.00015
+notebook_cited_static_lrdouble,citation=0.5; drift_period=1000000000; read_others=False,lr=0.0006
+notebook_wiped_cited_static_lrdouble,citation=0.5; drift_period=1000000000; read_others=False; wipe_on_death=True,lr=0.0006
+notebook_cited_static_juv10_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=10; read_others=False,lr=0.0006
+notebook_wiped_cited_static_juv10_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=10; read_others=False; wipe_on_death=True,lr=0.0006
+notebook_cited_static_juv25_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=25; read_others=False,lr=0.0006
+notebook_wiped_cited_static_juv25_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=25; read_others=False; wipe_on_death=True,lr=0.0006
+notebook_cited_static_juv_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=50; read_others=False,lr=0.0006
+notebook_wiped_cited_static_juv_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=50; read_others=False; wipe_on_death=True,lr=0.0006
+notebook_cited_static_juv100_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=100; read_others=False,lr=0.0006
+notebook_wiped_cited_static_juv100_lrdouble,citation=0.5; drift_period=1000000000; juvenile_updates=100; read_others=False; wipe_on_death=True,lr=0.0006
+notebook_cited_drift8000_juv10,citation=0.5; drift_period=8000; juvenile_updates=10; read_others=False,(default)
+notebook_wiped_cited_drift8000_juv10,citation=0.5; drift_period=8000; juvenile_updates=10; read_others=False; wipe_on_death=True,(default)
+notebook_cited_drift8000_juv25,citation=0.5; drift_period=8000; juvenile_updates=25; read_others=False,(default)
+notebook_wiped_cited_drift8000_juv25,citation=0.5; drift_period=8000; juvenile_updates=25; read_others=False; wipe_on_death=True,(default)
+notebook_cited_drift8000_juv,citation=0.5; drift_period=8000; juvenile_updates=50; read_others=False,(default)
+notebook_wiped_cited_drift8000_juv,citation=0.5; drift_period=8000; juvenile_updates=50; read_others=False; wipe_on_death=True,(default)
+notebook_cited_drift8000_juv100,citation=0.5; drift_period=8000; juvenile_updates=100; read_others=False,(default)
+notebook_wiped_cited_drift8000_juv100,citation=0.5; drift_period=8000; juvenile_updates=100; read_others=False; wipe_on_death=True,(default)
+no_wiki_envs64,wiki=False,envs=64
+individual_cited_envs64,citation=0.5,envs=64
+hyst_readable_c+0_from_lying_envs64,citation_early=-0.5; citation_switch_at=28800,envs=64; gens=9
+hyst_readable_c+0_from_lying_immortal_envs64,citation_early=-0.5; citation_switch_at=28800; immortal=True,envs=64; gens=9
+evo_wiki_groupb_from0_long,citation=0.5; juvenile_evolve=True; juvenile_group_birth=True,gens=36
+evo_wiki_groupb_from150_long,citation=0.5; juvenile_evolve=True; juvenile_group_birth=True; juvenile_updates=150,gens=36
+notebook_cited_seen,citation=0.5; credit_seen_only=True; read_others=False,(default)
+notebook_wiped_cited_seen,citation=0.5; credit_seen_only=True; read_others=False; wipe_on_death=True,(default)
+notebook_cited_juv_seen,citation=0.5; credit_seen_only=True; juvenile_updates=50; read_others=False,(default)
+notebook_wiped_cited_juv_seen,citation=0.5; credit_seen_only=True; juvenile_updates=50; read_others=False; wipe_on_death=True,(default)
+notebook_cited_static_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; read_others=False,(default)
+notebook_wiped_cited_static_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; read_others=False; wipe_on_death=True,(default)
+notebook_cited_static_juv_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; juvenile_updates=50; read_others=False,(default)
+notebook_wiped_cited_static_juv_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; juvenile_updates=50; read_others=False; wipe_on_death=True,(default)
+notebook_torso_cited_static_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; keep_torso=True; read_others=False,(default)
+notebook_wiped_torso_cited_static_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; keep_torso=True; read_others=False; wipe_on_death=True,(default)
+notebook_torso_cited_static_juv_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; juvenile_updates=50; keep_torso=True; read_others=False,(default)
+notebook_wiped_torso_cited_static_juv_seen,citation=0.5; credit_seen_only=True; drift_period=1000000000; juvenile_updates=50; keep_torso=True; read_others=False; wipe_on_death=True,(default)
+evo_wiki_groupd_from0_long,citation=0.5; juvenile_evolve=True; juvenile_group_each_death=True,gens=36
+evo_wiki_groupd_from150_long,citation=0.5; juvenile_evolve=True; juvenile_group_each_death=True; juvenile_updates=150,gens=36

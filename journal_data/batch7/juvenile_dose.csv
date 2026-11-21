@@ -1,0 +1,11 @@
+record,juvenile period,inherited,erased,inherited - erased,95% CI,verdict
+notebook,0,0.337,0.335,0.002,"[-0.008, +0.011]",same within ±0.02
+notebook,10,0.358,0.32,0.039,"[+0.031, +0.046]",different
+notebook,25,0.394,0.292,0.102,"[+0.095, +0.109]",different
+notebook,50,0.46,0.28,0.18,"[+0.170, +0.190]",different
+notebook,100,0.466,0.28,0.186,"[+0.174, +0.198]",different
+mass die-off,0,0.628,0.588,0.04,"[+0.019, +0.061]",different
+mass die-off,10,0.754,0.52,0.234,"[+0.189, +0.280]",different
+mass die-off,25,0.774,0.36,0.414,"[+0.372, +0.456]",different
+mass die-off,50,0.779,0.28,0.498,"[+0.485, +0.511]",different
+mass die-off,100,0.778,0.28,0.498,"[+0.485, +0.511]",different

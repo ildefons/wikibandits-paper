@@ -1,0 +1,7 @@
+inherited,erased,"inherited - erased, seen only",95% CI,verdict,"inherited - erased, original",original 95% CI,"newborn inherited, seen only","newborn erased, seen only","adult inherited, seen only","honest writes inherited, seen only","honest writes erased, seen only","honest writes inherited, original"
+notebook_cited,notebook_wiped_cited,0.014,"[+0.010, +0.017]",small but non-zero,0.0,"[-0.001, +0.001]",0.317,0.304,0.793,0.939,0.928,0.971
+notebook_cited_juv,notebook_wiped_cited_juv,0.101,"[+0.095, +0.108]",larger than 0.02,0.09,"[+0.088, +0.091]",0.379,0.277,0.809,0.986,0.903,0.987
+notebook_cited_static,notebook_wiped_cited_static,0.014,"[+0.001, +0.027]",different,0.001,"[-0.001, +0.004]",0.322,0.308,0.711,0.925,0.914,0.965
+notebook_cited_static_juv,notebook_wiped_cited_static_juv,0.181,"[+0.167, +0.194]",larger than 0.02,0.178,"[+0.174, +0.182]",0.461,0.28,0.7,0.958,0.896,0.962
+notebook_torso_cited_static,notebook_wiped_torso_cited_static,0.029,"[-0.003, +0.061]",inconclusive,0.009,"[+0.003, +0.016]",0.566,0.537,0.825,0.971,0.971,0.982
+notebook_torso_cited_static_juv,notebook_wiped_torso_cited_static_juv,0.283,"[+0.262, +0.304]",larger than 0.02,0.305,"[+0.297, +0.313]",0.691,0.408,0.833,0.979,0.967,0.987

@@ -1,0 +1,21 @@
+comparison,a,b,measure,a - b,95% CI,verdict
+erasing a dead author's page,wipe_cited,individual_cited,newborn reward,0.01,"[+0.008, +0.011]",same within ±0.02
+inheriting a private notebook,notebook_cited,notebook_wiped_cited,newborn reward,0.0,"[-0.001, +0.001]",same within ±0.02
+private notebook vs nothing,notebook_cited,no_wiki,newborn reward,0.014,"[+0.013, +0.015]",same within ±0.02
+shared wiki vs private notebook,individual_cited,notebook_cited,newborn reward,0.389,"[+0.388, +0.390]",different
+own entry repeated in every slot,notebook_replicated_cited,notebook_cited,newborn reward,0.124,"[+0.116, +0.133]",different
+one partner's page added,commons1_cited,notebook_cited,newborn reward,0.109,"[+0.088, +0.131]",different
+three partners' pages added,commons3_cited,notebook_cited,newborn reward,0.289,"[+0.287, +0.290]",different
+"inherited notebook, heir keeps features",notebook_torso_cited,no_wiki_torso,newborn reward,0.105,"[+0.097, +0.114]",different
+citation credit,individual_cited,individual,honest writes,0.209,"[+0.197, +0.221]",different
+competition (16 agents),competitive_cited,individual_cited,honest writes,-0.0,"[-0.003, +0.002]",same within ±0.02
+competition (4 agents),competitive_N4,cited_N4,honest writes,-0.002,"[-0.004, -0.001]",same within ±0.02
+competitive vs shuffled control,shuffled_cited,competitive_cited,adult reward,0.001,"[-0.000, +0.002]",same within ±0.02
+informational rivalry,rival_info,individual,honest writes,-0.739,"[-0.751, -0.726]",different
+"rivalry vs no wiki, newborns",rival_info,no_wiki,newborn reward,-0.05,"[-0.050, -0.050]",different
+"anonymity, no liars",clean_anonymous,individual_cited,newborn reward,0.001,"[-0.001, +0.002]",same within ±0.02
+"anonymity, 8 coordinated liars",deceivers8_anonymous,deceivers8_named,newborn reward,-0.311,"[-0.316, -0.307]",different
+named: liars vs random writers,deceivers8_named,incompetent8_named,newborn reward,-0.003,"[-0.007, +0.001]",same within ±0.02
+anonymous liars vs no wiki,deceivers8_anonymous,no_wiki,newborn reward,-0.0,"[-0.003, +0.003]",same within ±0.02
+"anonymity, 8 learning saboteurs",saboteurs8_anonymous,saboteurs8_named,newborn reward,-0.059,"[-0.073, -0.046]",different
+free symbols after 18 generations vs no wiki,symbol_cited_long,no_wiki,adult reward,-0.072,"[-0.099, -0.045]",different

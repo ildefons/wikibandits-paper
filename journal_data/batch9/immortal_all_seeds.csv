@@ -1,0 +1,7 @@
+own page,credit after switch,honest start,lying start,honest - lying,95% CI,verdict,"follows, lying start",seeds
+readable,-0.05,0.218,0.0,0.218,"[+0.145, +0.292]",larger than 0.05,0.002,10/10
+readable,-0.02,0.786,0.001,0.786,"[+0.739, +0.832]",larger than 0.05,0.002,10/10
+readable,0.0,0.968,0.016,0.952,"[+0.933, +0.971]",larger than 0.05,0.012,10/10
+hidden,-0.02,0.423,0.001,0.423,"[+0.298, +0.548]",larger than 0.05,0.002,10/10
+hidden,0.0,0.933,0.044,0.889,"[+0.862, +0.915]",larger than 0.05,0.005,10/10
+hidden,0.02,0.987,0.301,0.686,"[+0.625, +0.747]",larger than 0.05,0.504,10/10

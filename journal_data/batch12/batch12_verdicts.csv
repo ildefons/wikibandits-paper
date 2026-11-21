@@ -1,0 +1,5 @@
+prediction,case,result,detail
+Y1,from 150: every death minus once a lifetime below zero,holds,"-19.0 [-36.1, -1.9] updates"
+Y2,from 150: every death minus individual includes zero or lies below,fails,"+15.4 [+4.7, +26.0] updates"
+Y3,from 150: newborns above once a lifetime; difference from individual includes zero or lies above,fails,"every death 0.642, once a lifetime 0.627; minus individual -0.023 [-0.039, -0.008], different"
+Y4,from 0: selection effect negative,holds,"selection effect -9.1 [-10.0, -8.1]"

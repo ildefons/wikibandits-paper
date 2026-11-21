@@ -1,0 +1,25 @@
+prediction,case,result,detail
+N1,"hidden, c = +0.02, noise 0.10",fails,0.051 (at least 0.5)
+N1,"hidden, c = +0.02, noise 0.02",fails,"0.016 against 0.301 without noise: -0.284 [-0.345, -0.223]"
+N2,"readable, c = +0, noise 0.02",holds,0.053 (below 0.25)
+N2,"readable, c = +0, noise 0.1",holds,0.056 (below 0.25)
+N3,"readable, c = +0",holds,0.949 (above 0.75)
+N3,"hidden, c = +0.02",holds,0.950 (above 0.75)
+S1,readable,holds,0.979 (at least 0.9)
+S2,readable,fails,0.651 (below 0.25)
+S1,hidden,holds,0.978 (at least 0.9)
+S3,hidden,holds,"0.761 against 0.301 at c = +0.02: +0.460 [+0.361, +0.559]"
+J1,"readable, c = +0",fails,"J 0: 118, J 50: 158, J 150: 96"
+J2,"readable, c = +0",holds,"J 50: +0.001 [-0.016, +0.017], equivalent; J 150: +0.005 [-0.012, +0.022], equivalent"
+J3,"readable, c = +0",fails,"J 150: 0.697, J 0: 0.771"
+J1,"hidden, c = +0.02",fails,"J 0: 122, J 50: 115, J 150: 76"
+J2,"hidden, c = +0.02",holds,"J 50: -0.017 [-0.042, +0.008], equivalent; J 150: -0.006 [-0.017, +0.005], equivalent"
+J3,"hidden, c = +0.02",fails,"J 150: 0.609, J 0: 0.730"
+R1,readrival_hidden_c-0.5,fails,information 0.136 (below 0.05)
+R1,readrival_readable_c-0.5,fails,information 0.524 (below 0.1)
+R1,hidden_own_c-0.5,holds,information 0.216 (at least 0.15)
+R2,readrival_hidden_c-0.5,holds,"newborns 0.301, adults 0.591"
+T1,reading time,holds,"x0.5: 150, default: 41, x2: 18"
+T2,12 points,fails,7 of 12 within 0.20; mean absolute error 0.204
+C1,64 copies,holds,"newborns 0.642 with the wiki, 0.283 without"
+C2,64 copies,holds,"never die 0.037, mortal 0.713"

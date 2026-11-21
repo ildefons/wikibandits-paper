@@ -1,0 +1,11 @@
+prediction,case,result,detail
+G1b,"from 150: group shorter than individual, intervals not overlapping",fails,"group 123.7 [103.0, 144.4], individual 89.3 [77.5, 101.1]"
+G3b,from 150: newborns earn more under group selection,fails,"group - individual -0.038 [-0.066, -0.010], different"
+G2b,from 0: group-selection effect negative,holds,"selection effect -6.6 [-9.7, -3.6]"
+V1,notebook_cited: inherited - erased equivalent within 0.02,fails,"+0.014 [+0.010, +0.017], small but non-zero"
+V1,notebook_cited_static: inherited - erased equivalent within 0.02,fails,"+0.014 [+0.001, +0.027], different"
+V2,notebook_cited_static_juv: inherited - erased above +0.1,holds,"+0.181 [+0.167, +0.194]"
+V2,notebook_torso_cited_static_juv: inherited - erased above +0.2,holds,"+0.283 [+0.262, +0.304]"
+V3,every pair within 0.05 of the original credit rule,holds,largest change 0.022
+V4,notebook honest writes between 0.60 and 0.90,fails,range 0.896 to 0.986
+W1,newborns equivalent after the switch at >= 5 of 6 targets,holds,5 of 6 equivalent within 0.02

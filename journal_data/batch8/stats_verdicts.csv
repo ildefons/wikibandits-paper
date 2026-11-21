@@ -1,0 +1,65 @@
+family,comparison,a,b,measure,seeds a/b,a - b,95% CI,margin,verdict
+"inherited - erased, no juvenile period","notebook, fresh heir, facts change every 2,000 steps",notebook_cited,notebook_wiped_cited,newborn reward,10/3,0.0,"[-0.001, +0.001]",0.02,equivalent
+"inherited - erased, juvenile period 50","notebook, fresh heir, facts change every 2,000 steps",notebook_cited_juv,notebook_wiped_cited_juv,newborn reward,10/3,0.09,"[+0.088, +0.091]",0.02,larger than 0.02
+rescue: inherited with - without juvenile period,"notebook, fresh heir, facts change every 2,000 steps",notebook_cited_juv,notebook_cited,newborn reward,10/10,0.037,"[+0.036, +0.039]",0.02,larger than 0.02
+"inherited - erased, no juvenile period","notebook, heir keeps features, facts change every 2,000 steps",notebook_torso_cited,notebook_wiped_torso_cited,newborn reward,10/3,0.018,"[-0.001, +0.037]",0.02,inconclusive
+"inherited - erased, no juvenile period","pages after a die-off, facts change every 2,000 steps",sync_cited,sync_wipe_cited,newborn reward,3/3,0.029,"[+0.023, +0.035]",0.02,larger than 0.02
+"inherited - erased, juvenile period 50","pages after a die-off, facts change every 2,000 steps",sync_cited_juv,sync_wipe_cited_juv,newborn reward,3/3,0.246,"[+0.242, +0.249]",0.02,larger than 0.02
+rescue: inherited with - without juvenile period,"pages after a die-off, facts change every 2,000 steps",sync_cited_juv,sync_cited,newborn reward,3/3,-0.069,"[-0.075, -0.063]",0.02,larger than 0.02
+"inherited - erased, no juvenile period","notebook, fresh heir, facts change every 8,000 steps",notebook_cited_drift8000,notebook_wiped_cited_drift8000,newborn reward,3/3,0.002,"[-0.002, +0.007]",0.02,equivalent
+"inherited - erased, no juvenile period","notebook, heir keeps features, facts change every 8,000 steps",notebook_torso_cited_drift8000,notebook_wiped_torso_cited_drift8000,newborn reward,3/3,0.014,"[-0.004, +0.032]",0.02,inconclusive
+"inherited - erased, no juvenile period","pages after a die-off, facts change every 8,000 steps",sync_cited_drift8000,sync_wipe_cited_drift8000,newborn reward,3/3,0.036,"[+0.031, +0.041]",0.02,larger than 0.02
+"inherited - erased, no juvenile period","notebook, fresh heir, facts change every never steps",notebook_cited_static,notebook_wiped_cited_static,newborn reward,10/10,0.001,"[-0.001, +0.004]",0.02,equivalent
+"inherited - erased, juvenile period 50","notebook, fresh heir, facts change every never steps",notebook_cited_static_juv,notebook_wiped_cited_static_juv,newborn reward,10/10,0.178,"[+0.174, +0.182]",0.02,larger than 0.02
+rescue: inherited with - without juvenile period,"notebook, fresh heir, facts change every never steps",notebook_cited_static_juv,notebook_cited_static,newborn reward,10/10,0.121,"[+0.118, +0.125]",0.02,larger than 0.02
+"inherited - erased, keep prior 0.99","notebook, fresh heir, facts change every never steps",notebook_cited_static_keep99,notebook_wiped_cited_static_keep99,newborn reward,10/10,0.052,"[+0.049, +0.055]",0.02,larger than 0.02
+"inherited - erased, no juvenile period","notebook, heir keeps features, facts change every never steps",notebook_torso_cited_static,notebook_wiped_torso_cited_static,newborn reward,10/10,0.009,"[+0.003, +0.016]",0.02,small but non-zero
+"inherited - erased, juvenile period 50","notebook, heir keeps features, facts change every never steps",notebook_torso_cited_static_juv,notebook_wiped_torso_cited_static_juv,newborn reward,10/10,0.305,"[+0.297, +0.313]",0.02,larger than 0.02
+rescue: inherited with - without juvenile period,"notebook, heir keeps features, facts change every never steps",notebook_torso_cited_static_juv,notebook_torso_cited_static,newborn reward,10/10,0.126,"[+0.118, +0.134]",0.02,larger than 0.02
+"inherited - erased, keep prior 0.99","notebook, heir keeps features, facts change every never steps",notebook_torso_cited_static_keep99,notebook_wiped_torso_cited_static_keep99,newborn reward,10/10,0.069,"[+0.061, +0.076]",0.02,larger than 0.02
+"inherited - erased, no juvenile period","pages after a die-off, facts change every never steps",sync_cited_static,sync_wipe_cited_static,newborn reward,10/10,0.042,"[+0.035, +0.048]",0.02,larger than 0.02
+"inherited - erased, juvenile period 50","pages after a die-off, facts change every never steps",sync_cited_static_juv,sync_wipe_cited_static_juv,newborn reward,10/10,0.498,"[+0.495, +0.501]",0.02,larger than 0.02
+rescue: inherited with - without juvenile period,"pages after a die-off, facts change every never steps",sync_cited_static_juv,sync_cited_static,newborn reward,10/10,0.148,"[+0.144, +0.152]",0.02,larger than 0.02
+"inherited - erased, keep prior 0.99","pages after a die-off, facts change every never steps",sync_cited_static_keep99,sync_wipe_cited_static_keep99,newborn reward,10/10,0.258,"[+0.249, +0.266]",0.02,larger than 0.02
+shared wiki: keep prior 0.99 vs 0.90,newborn reward,individual_cited_keep99,individual_cited,newborn reward,10/10,-0.044,"[-0.047, -0.042]",0.02,larger than 0.02
+shared wiki: keep prior 0.99 vs 0.90,adult reward,individual_cited_keep99,individual_cited,adult reward,10/10,-0.03,"[-0.033, -0.028]",0.02,larger than 0.02
+shared wiki: keep prior 0.99 vs 0.90,honest writes,individual_cited_keep99,individual_cited,honest writes,10/10,-0.02,"[-0.023, -0.017]",0.02,different
+shared wiki: juvenile period vs none,newborn reward,individual_cited_juv,individual_cited,newborn reward,10/10,-0.017,"[-0.018, -0.016]",0.02,small but non-zero
+"identity, 8 deceivers, vs fixed names",names redrawn once a lifetime,deceivers8_rotate_life,deceivers8_named,newborn reward,10/10,-0.001,"[-0.005, +0.003]",0.02,equivalent
+"identity, 8 deceivers, vs fixed names",names redrawn once a lifetime,deceivers8_rotate_life,deceivers8_named,adult reward,10/10,-0.088,"[-0.103, -0.073]",0.02,larger than 0.02
+"identity, 8 deceivers, vs fixed names",names redrawn ten times a lifetime,deceivers8_rotate_short,deceivers8_named,newborn reward,10/10,-0.112,"[-0.116, -0.108]",0.02,larger than 0.02
+"identity, 8 deceivers, vs fixed names",names redrawn ten times a lifetime,deceivers8_rotate_short,deceivers8_named,adult reward,10/10,-0.161,"[-0.169, -0.153]",0.02,larger than 0.02
+"identity, 8 deceivers, vs fixed names",anonymous,deceivers8_anonymous,deceivers8_named,newborn reward,10/10,-0.311,"[-0.316, -0.307]",0.02,larger than 0.02
+"identity, 8 deceivers, vs fixed names",anonymous,deceivers8_anonymous,deceivers8_named,adult reward,10/10,-0.031,"[-0.032, -0.030]",0.02,larger than 0.02
+history: honest start - lying start,"own page readable, c = -0.05",hyst_readable_c-0.05_from_honest,hyst_readable_c-0.05_from_lying,honest writes,10/10,-0.011,"[-0.065, +0.043]",0.05,inconclusive
+history: switched - constant credit,"own page readable, c = -0.05, from honest",hyst_readable_c-0.05_from_honest,rival_0.05,honest writes,10/10,-0.019,"[-0.074, +0.036]",0.05,inconclusive
+history: switched - constant credit,"own page readable, c = -0.05, from lying",hyst_readable_c-0.05_from_lying,rival_0.05,honest writes,10/10,-0.008,"[-0.072, +0.057]",0.05,inconclusive
+history: honest start - lying start,"own page readable, c = -0.02",hyst_readable_c-0.02_from_honest,hyst_readable_c-0.02_from_lying,honest writes,10/10,0.005,"[-0.018, +0.029]",0.05,equivalent
+history: switched - constant credit,"own page readable, c = -0.02, from honest",hyst_readable_c-0.02_from_honest,rival_0.02,honest writes,10/10,0.017,"[-0.003, +0.038]",0.05,equivalent
+history: switched - constant credit,"own page readable, c = -0.02, from lying",hyst_readable_c-0.02_from_lying,rival_0.02,honest writes,10/10,0.012,"[-0.014, +0.038]",0.05,equivalent
+history: honest start - lying start,"own page readable, c = +0",hyst_readable_c+0_from_honest,hyst_readable_c+0_from_lying,honest writes,10/10,-0.005,"[-0.021, +0.010]",0.05,equivalent
+history: switched - constant credit,"own page readable, c = +0, from honest",hyst_readable_c+0_from_honest,individual,honest writes,10/10,0.001,"[-0.014, +0.016]",0.05,equivalent
+history: switched - constant credit,"own page readable, c = +0, from lying",hyst_readable_c+0_from_lying,individual,honest writes,10/10,0.006,"[-0.010, +0.022]",0.05,equivalent
+history: honest start - lying start,"own page hidden, c = -0.02",hyst_hidden_c-0.02_from_honest,hyst_hidden_c-0.02_from_lying,honest writes,10/10,0.009,"[-0.016, +0.034]",0.05,equivalent
+history: switched - constant credit,"own page hidden, c = -0.02, from honest",hyst_hidden_c-0.02_from_honest,hidden_own_c-0.02,honest writes,10/10,0.007,"[-0.015, +0.029]",0.05,equivalent
+history: switched - constant credit,"own page hidden, c = -0.02, from lying",hyst_hidden_c-0.02_from_lying,hidden_own_c-0.02,honest writes,10/10,-0.002,"[-0.024, +0.020]",0.05,equivalent
+history: honest start - lying start,"own page hidden, c = +0",hyst_hidden_c+0_from_honest,hyst_hidden_c+0_from_lying,honest writes,10/10,0.005,"[-0.019, +0.029]",0.05,equivalent
+history: switched - constant credit,"own page hidden, c = +0, from honest",hyst_hidden_c+0_from_honest,hidden_own,honest writes,10/10,0.003,"[-0.016, +0.022]",0.05,equivalent
+history: switched - constant credit,"own page hidden, c = +0, from lying",hyst_hidden_c+0_from_lying,hidden_own,honest writes,10/10,-0.002,"[-0.029, +0.024]",0.05,equivalent
+history: honest start - lying start,"own page hidden, c = +0.02",hyst_hidden_c+0.02_from_honest,hyst_hidden_c+0.02_from_lying,honest writes,10/10,0.001,"[-0.015, +0.017]",0.05,equivalent
+history: switched - constant credit,"own page hidden, c = +0.02, from honest",hyst_hidden_c+0.02_from_honest,hidden_own_c+0.02,honest writes,10/10,0.011,"[-0.010, +0.032]",0.05,equivalent
+history: switched - constant credit,"own page hidden, c = +0.02, from lying",hyst_hidden_c+0.02_from_lying,hidden_own_c+0.02,honest writes,10/10,0.01,"[-0.011, +0.031]",0.05,equivalent
+seats,per copy - anonymous (8 deceivers),deceivers8_seats_per_copy,deceivers8_anonymous,newborn reward,3/10,-0.021,"[-0.024, -0.018]",0.05,small but non-zero
+seats,own first fixed - per copy (8 deceivers),deceivers8_ownfirst_fixed,deceivers8_seats_per_copy,newborn reward,3/3,0.335,"[+0.329, +0.341]",0.05,larger than 0.05
+seats,own first fixed - fixed named (8 deceivers),deceivers8_ownfirst_fixed,deceivers8_named,newborn reward,3/10,0.003,"[-0.002, +0.008]",0.05,equivalent
+seats,no liars: per copy - fixed,clean_seats_per_copy,individual_cited,newborn reward,3/10,-0.004,"[-0.006, -0.002]",0.02,small but non-zero
+"history, learners that never die: honest - lying start","own page readable, c = -0.05",hyst_readable_c-0.05_from_honest_immortal,hyst_readable_c-0.05_from_lying_immortal,honest writes,3/3,0.257,"[-0.156, +0.669]",0.05,inconclusive
+"history, learners that never die: honest - lying start","own page readable, c = -0.02",hyst_readable_c-0.02_from_honest_immortal,hyst_readable_c-0.02_from_lying_immortal,honest writes,3/3,0.819,"[+0.678, +0.960]",0.05,larger than 0.05
+"history, learners that never die: honest - lying start","own page readable, c = +0",hyst_readable_c+0_from_honest_immortal,hyst_readable_c+0_from_lying_immortal,honest writes,3/3,0.973,"[+0.960, +0.986]",0.05,larger than 0.05
+"history, learners that never die: honest - lying start","own page hidden, c = -0.02",hyst_hidden_c-0.02_from_honest_immortal,hyst_hidden_c-0.02_from_lying_immortal,honest writes,3/3,0.463,"[-0.001, +0.927]",0.05,inconclusive
+"history, learners that never die: honest - lying start","own page hidden, c = +0",hyst_hidden_c+0_from_honest_immortal,hyst_hidden_c+0_from_lying_immortal,honest writes,3/3,0.885,"[+0.835, +0.935]",0.05,larger than 0.05
+"history, learners that never die: honest - lying start","own page hidden, c = +0.02",hyst_hidden_c+0.02_from_honest_immortal,hyst_hidden_c+0.02_from_lying_immortal,honest writes,3/3,0.748,"[+0.600, +0.896]",0.05,larger than 0.05
+own memory,"wiki - no record, newborns",mem_cited,mem_no_wiki,newborn reward,3/3,0.19,"[+0.184, +0.197]",0.02,larger than 0.02
+own memory,"wiki - no record, adults",mem_cited,mem_no_wiki,adult reward,3/3,0.006,"[+0.005, +0.007]",0.02,small but non-zero
+own memory,"inherited - erased notebook, no juvenile period",mem_notebook_cited_static,mem_notebook_wiped_cited_static,newborn reward,3/3,-0.004,"[-0.012, +0.005]",0.02,equivalent
+own memory,"inherited - erased notebook, juvenile period 50",mem_notebook_cited_static_juv,mem_notebook_wiped_cited_static_juv,newborn reward,3/3,0.176,"[+0.151, +0.201]",0.02,larger than 0.02

@@ -1,0 +1,27 @@
+setting,seeds,"newborn reward, last third",95% CI,"newborn reward, whole run"
+evo_notebook_static_from0,3,0.384,"[+0.371, +0.398]",0.37
+evo_notebook_static_from150,3,0.487,"[+0.465, +0.508]",0.471
+evo_notebook_from0,3,0.36,"[+0.356, +0.365]",0.354
+evo_notebook_from150,3,0.374,"[+0.371, +0.376]",0.364
+evo_notebook_torso_static_from0,3,0.781,"[+0.771, +0.790]",0.695
+evo_notebook_torso_static_from150,3,0.81,"[+0.793, +0.827]",0.747
+evo_wiki_from0,3,0.708,"[+0.700, +0.716]",0.712
+evo_wiki_from150,3,0.579,"[+0.571, +0.586]",0.571
+evo_sync_static_from0,3,0.762,"[+0.761, +0.764]",0.745
+evo_sync_static_from150,3,0.785,"[+0.784, +0.786]",0.785
+evo_sync_static_group_from0,3,0.766,"[+0.762, +0.770]",0.748
+evo_sync_static_group_from150,3,0.785,"[+0.785, +0.786]",0.785
+evo_notebook_from0_long,3,0.361,"[+0.359, +0.364]",0.359
+evo_notebook_from150_long,3,0.365,"[+0.361, +0.368]",0.367
+evo_notebook_drift8000_from0_long,3,0.455,"[+0.451, +0.459]",0.42
+evo_notebook_drift8000_from150_long,3,0.471,"[+0.455, +0.488]",0.472
+evo_notebook_torso_from0_long,3,0.711,"[+0.706, +0.716]",0.682
+evo_notebook_torso_from150_long,3,0.716,"[+0.710, +0.723]",0.642
+evo_notebook_torso_drift8000_from0_long,3,0.75,"[+0.748, +0.752]",0.725
+evo_notebook_torso_drift8000_from150_long,3,0.747,"[+0.745, +0.749]",0.716
+evo_wiki_from0_long,3,0.703,"[+0.698, +0.708]",0.707
+evo_wiki_group_from0_long,3,0.703,"[+0.698, +0.708]",0.707
+evo_wiki_from150_long,3,0.665,"[+0.648, +0.683]",0.619
+evo_wiki_group_from150_long,3,0.649,"[+0.609, +0.690]",0.61
+evo_wiki_groupb_from0_long,3,0.701,"[+0.694, +0.708]",0.707
+evo_wiki_groupb_from150_long,3,0.627,"[+0.593, +0.661]",0.599

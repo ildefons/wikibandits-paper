@@ -1,0 +1,34 @@
+comparison,a,b,measure,a - b,95% CI,verdict
+heir keeps features: notebook erased vs inherited,notebook_wiped_torso_cited,notebook_torso_cited,newborn reward,-0.018,"[-0.037, +0.001]",unclear
+heir keeps features: erased notebook vs nothing,notebook_wiped_torso_cited,no_wiki_torso,newborn reward,0.088,"[+0.069, +0.106]",different
+"own page hidden, no credit",hidden_own,individual,honest writes,-0.25,"[-0.269, -0.231]",different
+"own page hidden, credit",hidden_own_cited,individual_cited,honest writes,-0.001,"[-0.004, +0.002]",same within ±0.02
+"competition, no credit",competitive_nocite,individual,honest writes,-0.043,"[-0.092, +0.007]",unclear
+"own page hidden, competition, no credit",hidden_own_competitive,competitive_nocite,honest writes,-0.488,"[-0.537, -0.438]",different
+"own page hidden, competition + credit",hidden_own_competitive_cited,competitive_cited,honest writes,-0.001,"[-0.004, +0.002]",same within ±0.02
+"own page hidden, competition + credit, 4 agents",hidden_own_competitive_cited_N4,competitive_N4,honest writes,-0.008,"[-0.018, +0.001]",same within ±0.02
+"own page hidden, credit, 4 agents",hidden_own_cited_N4,cited_N4,honest writes,-0.003,"[-0.007, +0.000]",same within ±0.02
+own page hidden: newborns,hidden_own_cited,individual_cited,newborn reward,-0.0,"[-0.001, +0.000]",same within ±0.02
+mass die-off: wiki vs nothing,sync_cited,sync_no_wiki,newborn reward,0.276,"[+0.270, +0.282]",different
+mass die-off: notebook vs nothing,sync_notebook_cited,sync_no_wiki,newborn reward,0.016,"[+0.012, +0.020]",different
+mass die-off: pages kept vs erased,sync_cited,sync_wipe_cited,newborn reward,0.029,"[+0.023, +0.035]",different
+wiki: mass vs staggered deaths,sync_cited,individual_cited,newborn reward,-0.127,"[-0.133, -0.120]",different
+no wiki: mass vs staggered deaths,sync_no_wiki,no_wiki,newborn reward,0.001,"[-0.002, +0.003]",same within ±0.02
+liars' names reshuffled once a lifetime,deceivers8_rotate_life,deceivers8_named,newborn reward,-0.001,"[-0.005, +0.003]",same within ±0.02
+liars' names reshuffled 10x a lifetime,deceivers8_rotate_short,deceivers8_named,newborn reward,-0.112,"[-0.116, -0.108]",different
+fast reshuffling vs anonymity,deceivers8_rotate_short,deceivers8_anonymous,newborn reward,0.199,"[+0.196, +0.203]",different
+named: sleepers vs liars from the start,deceivers8_sleeper_named,deceivers8_named,population reward,0.0,"[-0.001, +0.001]",same within ±0.02
+sleepers: anonymous vs named,deceivers8_sleeper_anonymous,deceivers8_sleeper_named,population reward,-0.144,"[-0.151, -0.136]",different
+4 machines: wiki vs nothing,cited_K4,no_wiki_K4,newborn reward,0.414,"[+0.412, +0.415]",different
+8 machines: wiki vs nothing,individual_cited,no_wiki,newborn reward,0.403,"[+0.403, +0.404]",different
+32 machines: wiki vs nothing,cited_K32,no_wiki_K32,newborn reward,0.322,"[+0.319, +0.325]",different
+32 machines: wiki vs notebook,cited_K32,notebook_cited_K32,newborn reward,0.319,"[+0.317, +0.322]",different
+"drift 500, life 100: wiki vs nothing",cited_drift500_life100,no_wiki_drift500_life100,population reward,0.316,"[+0.302, +0.329]",different
+"drift 500, life 300: wiki vs nothing",cited_drift500_life300,no_wiki_drift500_life300,population reward,0.283,"[+0.278, +0.288]",different
+"drift 500, life 900: wiki vs nothing",cited_drift500_life900,no_wiki_drift500_life900,population reward,0.253,"[+0.251, +0.254]",different
+"drift 2000, life 100: wiki vs nothing",cited_life100,no_wiki_life100,population reward,0.388,"[+0.378, +0.399]",different
+"drift 2000, life 300: wiki vs nothing",individual_cited,no_wiki,population reward,0.341,"[+0.336, +0.346]",different
+"drift 2000, life 900: wiki vs nothing",cited_life900,no_wiki_life900,population reward,0.295,"[+0.293, +0.297]",different
+"drift 8000, life 100: wiki vs nothing",cited_drift8000_life100,no_wiki_drift8000_life100,population reward,0.416,"[+0.401, +0.430]",different
+"drift 8000, life 300: wiki vs nothing",cited_drift8000_life300,no_wiki_drift8000_life300,population reward,0.362,"[+0.360, +0.365]",different
+"drift 8000, life 900: wiki vs nothing",cited_drift8000_life900,no_wiki_drift8000_life900,population reward,0.308,"[+0.304, +0.312]",different
