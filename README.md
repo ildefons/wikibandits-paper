@@ -52,7 +52,7 @@ Main-text Figures 1 to 5 are `fig1_world`, `fig2_newcomers`, `fig4_inheritance`,
 
 ## Provenance
 
-Most figure panels are drawn directly from the tables in `journal_data/`. Time courses of the credit-switch runs (`history_series.npz`, `batch10/batch10_series.npz`) were saved directly by the notebook. The per-update logs of the evolution runs were not kept, so their smoothed time courses (`evolution_series.npz`, used for main-text Figure 4 and Supplementary Figure S3) were recovered from the vector paths of the notebook's own figure PDFs; their end points match `evolution.csv`. Three older recovered files (`hysteresis_series.npz` and `hysteresis_adult_series.npz`, recovered with `recover_fig15.py`, and `survival_series.npz`) are not used by the current figures.
+Most figure panels are drawn directly from the tables in `journal_data/`. Time courses of the credit-switch runs (`history_series.npz`, `batch10/batch10_series.npz`) were saved directly by the notebook. The per-update logs of the evolution runs were not kept, so their smoothed time courses (`evolution_series.npz`, used for Supplementary Figures S3 and S4) were recovered from the vector paths of the notebook's own figure PDFs; their end points match `evolution.csv`. Three older recovered files (`hysteresis_series.npz` and `hysteresis_adult_series.npz`, recovered with `recover_fig15.py`, and `survival_series.npz`) are not used by the current figures.
 
 ## Registration
 
