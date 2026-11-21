@@ -66,7 +66,7 @@ hbars(ax[0], [
     ("Learners, no record", *val("no_wiki", "adult reward"), DARK, ""),
     ("Learners, private notebook", *val("notebook_cited", "adult reward"), NOTE, ""),
     ("Learners, shared wiki", *val("individual_cited", "adult reward"), WIKI, ""),
-    ("Bayesian, remembers every machine", 0.87, 0, GRAY, ""),
+    ("Bayesian, remembers every machine", 0.88, 0, GRAY, ""),
     ("Bayesian, pools everything", 0.90, 0, GRAY, ""),
     ("Omniscient", 0.90, 0, GRAY, "")], "adult reward per pull")
 ax[0].set_title("(a) Adults against the best strategies", loc="left")
